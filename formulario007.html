@@ -7,6 +7,160 @@
 </head>
 <body>
     <form action="cadastro.php" method="post">
+<p>
+    <label for="iest">Estado</label>
+    <select name="Estado" id="iest">
+    <optgroup label="Região Sudeste">
+    <option value="SP">São Paulo</option>
+    <option value="RJ">Rio de Janeiro</option>
+    <option value="MG">Minas Gerais</option>
+    </optgroup>
+    <optgroup label="Região Nordeste">
+        <option value="MA">Maranhão</option>
+        <option value="PE">Pernanbuco</option>
+        <option value="RN">Rio Grande do Norte</option>
+    </optgroup>
+    <optgroup label="Região Centro-Oeste">
+        <option value="GO">Goiás</option>
+        <option value="MT">Mato Grosso</option>
+        <option value="MS">Matos Grosso do Sul</option>
+        <option value="DF">Distrito Federal</option>
+
+    </optgroup>
+    </select>
+    </section>
+</p>
+<p>
+    <label for="iprof">Profissão</label>
+    <input type="text" name="Profissão" id="iprof" list="listprof" placeholder="Escolha">
+    <datalist id="listprof">
+    <optgroup >
+        <option >Administrador de dados</option>
+        <option >Contabilista</option>
+        <option >Desenvolvedor</option>
+        <option >Professor</option>
+    </optgroup>
+    
+
+
+    </datalist>
+</p>
+<p>
+    <label for="msg">Mensagem</label><br>
+    <textarea name="Mensagem" id="msg" cols="30" rows="10">Deixe seu coméntario</textarea>
+</p>
+
+
+<p>
+    <input type="reset" value="limpar">
+    <input type="submit" value="Enviar">
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <p>
+    <fieldset>
+        <legend>Escolha sua cor Preferida</legend>
+    
+   <label for="ired">Cor:</label>
+<input type="color" name="vermelho" id="ired" value="#00ff00"> 
+</p>
+</fieldset>
+
+<p>
+  <fieldset >
+<legend>qual Você tem em casa?</legend>
+<label for="icate">Gato</label>
+<input type="radio" name="cate" id="icate"><br>
+<label for="idog">Peixe</label>
+<input type="radio" name="fixe" id="ifixe"><br>
+
+<label for="idog">Cachorro</label>
+<input type="radio" name="dog" id="idog"><br>
+
+<label for="icate">Passarinho</label>
+<input type="radio" name="passarinho" id="ipas"><br>
+<label for="nenhum">Nenhum</label>
+<input type="radio" name="nenhum" id="nenhum">
+
+
+
+  </fieldset> 
+</p> -->
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <form action="cadastro.php" method="post">
 
 
 <p>
@@ -58,7 +212,7 @@
 
 
 
-    </form>
+    </form> -->
     
 </body>
 </html>
